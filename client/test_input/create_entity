@@ -1,0 +1,104 @@
+{
+    type_of_element:node,
+    value_type:void,
+    name:tweet
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+{
+    type_of_element:node,
+    value_type:void,
+    name:user
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+{
+    type_of_element:node,
+    value_type:void,
+    name:source
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+
+
+{
+    type_of_element:relationship,
+    value_type:void,
+    name:mentioned
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+{
+    type_of_element:relationship,
+    value_type:void,
+    name:posted
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+{
+    type_of_element:relationship,
+    value_type:void,
+    name:reply_to
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+{
+    type_of_element:relationship,
+    value_type:void,
+    name:using
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+
+
+{
+    type_of_element:property,
+    value_type:string,
+    name:text
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+{
+    type_of_element:property,
+    value_type:string,
+    name:created_at
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};
+{
+    type_of_element:property,
+    value_type:int,
+    name:following
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+};

@@ -1,0 +1,28 @@
+{
+    type_of_element:node,
+    value_type:void,
+    name:tweet
+}
+mutation CreateEntity(i: $i) {
+    createEntity(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:395
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{}
+query SelectNode(i: $i) {
+    selectNode(i: $i) {
+        type(type: tweet)
+    }
+}
+;

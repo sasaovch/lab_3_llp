@@ -1,0 +1,41 @@
+
+{
+    value_type:string,
+    subject_id:0,
+    type:text,
+    subject_type:tweet,
+    value:"asynchio"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:1,
+    type:text,
+    subject_type:tweet,
+    value:"martin_casado"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:string,
+    subject_id:2,
+    type:text,
+    subject_type:tweet,
+    value:"neo4j"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;

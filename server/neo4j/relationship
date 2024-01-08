@@ -1,0 +1,430 @@
+[
+{
+  "identity": -41684,
+  "start": -8443,
+  "end": -8438,
+  "type": "ACTED_IN",
+  "properties": {
+    "name": "ACTED_IN"
+  },
+  "elementId": "-41684",
+  "startNodeElementId": "-8443",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41682,
+  "start": -8441,
+  "end": -8438,
+  "type": "ACTED_IN",
+  "properties": {
+    "name": "ACTED_IN"
+  },
+  "elementId": "-41682",
+  "startNodeElementId": "-8441",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41683,
+  "start": -8442,
+  "end": -8438,
+  "type": "ACTED_IN",
+  "properties": {
+    "name": "ACTED_IN"
+  },
+  "elementId": "-41683",
+  "startNodeElementId": "-8442",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41681,
+  "start": -8440,
+  "end": -8438,
+  "type": "RATED",
+  "properties": {
+    "name": "RATED"
+  },
+  "elementId": "-41681",
+  "startNodeElementId": "-8440",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41680,
+  "start": -8438,
+  "end": -8439,
+  "type": "IN_GENRE",
+  "properties": {
+    "name": "IN_GENRE"
+  },
+  "elementId": "-41680",
+  "startNodeElementId": "-8438",
+  "endNodeElementId": "-8439"
+}
+, 
+{
+  "identity": -41685,
+  "start": -8441,
+  "end": -8438,
+  "type": "DIRECTED",
+  "properties": {
+    "name": "DIRECTED"
+  },
+  "elementId": "-41685",
+  "startNodeElementId": "-8441",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41686,
+  "start": -8442,
+  "end": -8438,
+  "type": "DIRECTED",
+  "properties": {
+    "name": "DIRECTED"
+  },
+  "elementId": "-41686",
+  "startNodeElementId": "-8442",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41687,
+  "start": -8443,
+  "end": -8438,
+  "type": "DIRECTED",
+  "properties": {
+    "name": "DIRECTED"
+  },
+  "elementId": "-41687",
+  "startNodeElementId": "-8443",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41691,
+  "start": -8438,
+  "end": -8442,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41691",
+  "startNodeElementId": "-8438",
+  "endNodeElementId": "-8442"
+}
+, 
+{
+  "identity": -41700,
+  "start": -8441,
+  "end": -8441,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41700",
+  "startNodeElementId": "-8441",
+  "endNodeElementId": "-8441"
+}
+, 
+{
+  "identity": -41711,
+  "start": -8443,
+  "end": -8442,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41711",
+  "startNodeElementId": "-8443",
+  "endNodeElementId": "-8442"
+}
+, 
+{
+  "identity": -41704,
+  "start": -8442,
+  "end": -8440,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41704",
+  "startNodeElementId": "-8442",
+  "endNodeElementId": "-8440"
+}
+, 
+{
+  "identity": -41690,
+  "start": -8438,
+  "end": -8441,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41690",
+  "startNodeElementId": "-8438",
+  "endNodeElementId": "-8441"
+}
+, 
+{
+  "identity": -41709,
+  "start": -8443,
+  "end": -8440,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41709",
+  "startNodeElementId": "-8443",
+  "endNodeElementId": "-8440"
+}
+, 
+{
+  "identity": -41693,
+  "start": -8440,
+  "end": -8438,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41693",
+  "startNodeElementId": "-8440",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41701,
+  "start": -8441,
+  "end": -8442,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41701",
+  "startNodeElementId": "-8441",
+  "endNodeElementId": "-8442"
+}
+, 
+{
+  "identity": -41703,
+  "start": -8442,
+  "end": -8438,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41703",
+  "startNodeElementId": "-8442",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41692,
+  "start": -8438,
+  "end": -8443,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41692",
+  "startNodeElementId": "-8438",
+  "endNodeElementId": "-8443"
+}
+, 
+{
+  "identity": -41696,
+  "start": -8440,
+  "end": -8442,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41696",
+  "startNodeElementId": "-8440",
+  "endNodeElementId": "-8442"
+}
+, 
+{
+  "identity": -41697,
+  "start": -8440,
+  "end": -8443,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41697",
+  "startNodeElementId": "-8440",
+  "endNodeElementId": "-8443"
+}
+, 
+{
+  "identity": -41698,
+  "start": -8441,
+  "end": -8438,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41698",
+  "startNodeElementId": "-8441",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41708,
+  "start": -8443,
+  "end": -8438,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41708",
+  "startNodeElementId": "-8443",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41706,
+  "start": -8442,
+  "end": -8442,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41706",
+  "startNodeElementId": "-8442",
+  "endNodeElementId": "-8442"
+}
+, 
+{
+  "identity": -41699,
+  "start": -8441,
+  "end": -8440,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41699",
+  "startNodeElementId": "-8441",
+  "endNodeElementId": "-8440"
+}
+, 
+{
+  "identity": -41702,
+  "start": -8441,
+  "end": -8443,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41702",
+  "startNodeElementId": "-8441",
+  "endNodeElementId": "-8443"
+}
+, 
+{
+  "identity": -41688,
+  "start": -8438,
+  "end": -8438,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41688",
+  "startNodeElementId": "-8438",
+  "endNodeElementId": "-8438"
+}
+, 
+{
+  "identity": -41694,
+  "start": -8440,
+  "end": -8440,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41694",
+  "startNodeElementId": "-8440",
+  "endNodeElementId": "-8440"
+}
+, 
+{
+  "identity": -41707,
+  "start": -8442,
+  "end": -8443,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41707",
+  "startNodeElementId": "-8442",
+  "endNodeElementId": "-8443"
+}
+, 
+{
+  "identity": -41712,
+  "start": -8443,
+  "end": -8443,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41712",
+  "startNodeElementId": "-8443",
+  "endNodeElementId": "-8443"
+}
+, 
+{
+  "identity": -41689,
+  "start": -8438,
+  "end": -8440,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41689",
+  "startNodeElementId": "-8438",
+  "endNodeElementId": "-8440"
+}
+, 
+{
+  "identity": -41705,
+  "start": -8442,
+  "end": -8441,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41705",
+  "startNodeElementId": "-8442",
+  "endNodeElementId": "-8441"
+}
+, 
+{
+  "identity": -41695,
+  "start": -8440,
+  "end": -8441,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41695",
+  "startNodeElementId": "-8440",
+  "endNodeElementId": "-8441"
+}
+, 
+{
+  "identity": -41710,
+  "start": -8443,
+  "end": -8441,
+  "type": "SIMILAR_JACCARD",
+  "properties": {
+    "name": "SIMILAR_JACCARD"
+  },
+  "elementId": "-41710",
+  "startNodeElementId": "-8443",
+  "endNodeElementId": "-8441"
+}
+]

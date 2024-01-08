@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+enum TypeOfElement {
+    NODE = 0;
+    RELATIONSHIP = 1;
+    PROPERTY = 2;
+}
+
+enum ValueType {
+    INT = 0;
+    FLOAT = 1;
+    STRING = 2;
+    BOOL = 3;
+    VOID = 4;
+}
+
+message Entity {
+    required TypeOfElement typeOfElement = 1;
+    required ValueType valueType = 2;
+    required string name = 3;
+}

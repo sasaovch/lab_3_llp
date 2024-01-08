@@ -1,0 +1,781 @@
+
+{
+    parent_id:0,
+    child_id:12,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:0,
+    child_id:13,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:0,
+    child_id:14,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:0,
+    child_id:1,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:0,
+    child_id:15,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+{
+    parent_id:1,
+    child_id:2,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:16,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:14,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:12,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:15,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+
+{
+    parent_id:2,
+    child_id:15,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:12,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:14,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:13,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:3,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+{
+    parent_id:3,
+    child_id:4,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+{
+    parent_id:3,
+    child_id:5,
+    type:reply_to,
+    parent_type:tweet,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+
+
+
+{
+    parent_id:0,
+    child_id:0,
+    type:posted,
+    parent_type:user,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:1,
+    type:posted,
+    parent_type:user,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:0,
+    child_id:2,
+    type:posted,
+    parent_type:user,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+{
+    parent_id:1,
+    child_id:3,
+    type:posted,
+    parent_type:user,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:5,
+    type:posted,
+    parent_type:user,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:6,
+    type:posted,
+    parent_type:user,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:7,
+    type:posted,
+    parent_type:user,
+    child_type:tweet
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+{
+    parent_id:0,
+    child_id:1,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:0,
+    child_id:2,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:0,
+    child_id:3,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:0,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:2,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:3,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:1,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:2,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:3,
+    type:mentioned,
+    parent_type:tweet,
+    child_type:user
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+{
+    parent_id:0,
+    child_id:0,
+    type:using,
+    parent_type:tweet,
+    child_type:source
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:1,
+    child_id:0,
+    type:using,
+    parent_type:tweet,
+    child_type:source
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:2,
+    child_id:0,
+    type:using,
+    parent_type:tweet,
+    child_type:source
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:3,
+    child_id:0,
+    type:using,
+    parent_type:tweet,
+    child_type:source
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:4,
+    child_id:0,
+    type:using,
+    parent_type:tweet,
+    child_type:source
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:5,
+    child_id:0,
+    type:using,
+    parent_type:tweet,
+    child_type:source
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+{
+    parent_id:6,
+    child_id:2,
+    type:using,
+    parent_type:tweet,
+    child_type:source
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+{
+    parent_id:7,
+    child_id:0,
+    type:using,
+    parent_type:tweet,
+    child_type:source
+}
+mutation CreateNode(i: $i) {
+    createRelationship(i: $i) {
+        id
+    }
+}
+;
+
+
+
+
+
+{
+    value_type:string,
+    subject_id:0,
+    type:text,
+    subject_type:tweet,
+    value:"@asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ..."
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:1,
+    type:text,
+    subject_type:tweet,
+    value:"@martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:string,
+    subject_id:2,
+    type:text,
+    subject_type:tweet,
+    value:"@asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:3,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:string,
+    subject_id:4,
+    type:text,
+    subject_type:tweet,
+    value:"@martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:string,
+    subject_id:5,
+    type:text,
+    subject_type:tweet,
+    value: "@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:string,
+    subject_id:0,
+    type:created_at,
+    subject_type:tweet,
+    value:"2021-03-13T17:23:42Z"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:1,
+    type:created_at,
+    subject_type:tweet,
+    value:"2021-03-13T17:23:04Z"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:2,
+    type:created_at,
+    subject_type:tweet,
+    value:"2021-03-13T17:21:29Z"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:string,
+    subject_id:3,
+    type:created_at,
+    subject_type:tweet,
+    value:"2021-03-13T17:19:31Z"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:4,
+    type:created_at,
+    subject_type:tweet,
+    value:"2021-03-13T19:50:39Z"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:5,
+    type:created_at,
+    subject_type:tweet,
+    value:"2021-03-13T19:35:28Z"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:int,
+    subject_id:0,
+    type:following,
+    subject_type:user,
+    value:968
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:int,
+    subject_id:1,
+    type:following,
+    subject_type:user,
+    value:7261
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:int,
+    subject_id:2,
+    type:following,
+    subject_type:user,
+    value:8962
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+
+{
+    value_type:int,
+    subject_id:3,
+    type:following,
+    subject_type:user,
+    value:8498
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:int,
+    subject_id:4,
+    type:following,
+    subject_type:user,
+    value:841
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;

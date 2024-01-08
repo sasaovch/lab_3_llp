@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+import "operation.proto";
+import "filter.proto";
+import "element.proto";
+import "entity.proto";
+
+message Request {
+    required Operation operation = 1;
+    required bool isEntity = 2;
+    optional Filter filter = 3;
+    optional Entity entity = 4;
+    optional Element element = 5;
+}

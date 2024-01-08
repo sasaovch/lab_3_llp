@@ -1,0 +1,60 @@
+{
+  type: person,
+  name: François Lallement
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+  type: person,
+  name: François Lallement
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+  type: person,
+  name: François Lallement
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+  type: person,
+  name: François Lallement
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+  type: person,
+  name: François Lallement
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+  type: person,
+  name: François Lallement
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;

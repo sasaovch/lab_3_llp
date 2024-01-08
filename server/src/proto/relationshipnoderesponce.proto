@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+import "simplenode.proto";
+
+message RelationshipNodeResponce {
+    required string relation_type = 1;
+    optional SimpleNodeMessage node = 2;
+}

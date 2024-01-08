@@ -1,0 +1,262 @@
+{
+    type:tweet,
+    name:395
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:397
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:402
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+{
+    type:tweet,
+    name:381
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:374
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:372
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:365
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:362
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+{
+    type:tweet,
+    name:358
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:354
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:337
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+{
+    type:tweet,
+    name:344
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+{
+    type:tweet,
+    name:342
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+{
+    type:tweet,
+    name:341
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:0
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+{
+    type:tweet,
+    name:339
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:tweet,
+    name:340
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:user,
+    name: "marti_casado"
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:user,
+    name:"jj"
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:user,
+    name: "Anshu Sharma 🌶"
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+
+{
+    type:user,
+    name: "Emil Eifrem"
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+{
+    type:user,
+    name: "openCypher Project"
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+
+{
+    type:source,
+    name:"Twitter for iPhone"
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+{
+    type:source,
+    name:"Twitter for Android"
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
+
+{
+    type:source,
+    name:"Twitter Web App"
+}
+mutation CreateNode(i: $i) {
+    createNode(i: $i) {
+        id
+    }
+}
+;
