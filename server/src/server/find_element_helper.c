@@ -2,7 +2,9 @@
 #include "../include/operations/crud_methods.h"
 #include "data/constants.h"
 #include "data/node.h"
+#include "data/property.h"
 
+#include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -78,6 +80,40 @@ void find_nodes_by_relationships(Cursor *cursor, int relationships_count, Relati
         free_iter(iterator);
     }
     free_node(node);
+}
+
+void find_properties_for_nodes(Cursor *cursor, int nodes_count, Node **nodes, Property ***properties_n) {
+    Property *prop = (Property*) malloc(PROPERTY_SIZE);
+    prop->value = malloc(CHAR_SIZE);
+
+    for (int i = 0; i < nodes_count; i++) {
+        (*properties_n)[i] = NULL;
+    }
+    
+    for (int i = 0; i < nodes_count; i++) {
+        Node *nd = nodes[i];
+        prop->subject_id = nd->id;
+        for (uint32_t j = 0; j < NAME_TYPE_SIZE; j++) (prop->subject_type)[i] = '\0';
+        strcpy(prop->subject_type, nd->type);
+        strcpy(prop->type, "text");
+        
+        Iterator *iterator = select_property_by_subject(cursor, prop);
+        while (has_next(iterator)) {
+            Property *prop_iter = (Property *) next(iterator);
+            
+            if (strcmp(prop_iter->type, "text") == 0) {
+                (*properties_n)[i] = create_property_copy(prop_iter);
+                break;
+            }
+            
+            free_node(prop_iter);
+        }
+        //  else {
+        //     (*properties_n)[i] = NULL;
+        // }
+        free_iter(iterator);
+    }
+    free_property(prop);
 }
 
 void find_properties_for_request(Cursor *cursor, Node *nd, int *properties_count, Property ***properties, RequestMessage *request) {

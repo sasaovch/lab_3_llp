@@ -47,8 +47,8 @@ file(GLOB_RECURSE HEADERS ${CMAKE_CURRENT_LIST_DIR}/include/**.h EXCLUDE binary/
 
 include_directories(include)
 
-add_library(proto ${PROTO_GENERATED_SRC})
-target_include_directories(proto PUBLIC ${BINARY_DIR})
+add_library(proto_server ${PROTO_GENERATED_SRC})
+target_include_directories(proto_server PUBLIC ${BINARY_DIR})
 
 add_executable(${PROJECT_NAME} ${PROTO_GENERATED_SRC})
 

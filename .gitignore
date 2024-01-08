@@ -8,3 +8,14 @@ CMakeCache.txt
 libllp_lib.a
 llp
 *.csv
+client/.cache
+client/.vscode
+client/build
+server/.cache
+server/.vscode
+server/build
+server/database
+server/neo4j_try
+server/test_neo4j
+database
+output

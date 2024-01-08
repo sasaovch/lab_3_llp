@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "../include/utils/string_utils.h"
+#include "data/property.h"
 
 
 TypeOfElement convert_type_of_element(TypeOfElementProto type) {
@@ -129,18 +130,27 @@ SimpleNodeMessage *convert_node_to_responce(Node *nd) {
     return simple_node;
 }
 
-RelationshipNodeResponce *convert_relationship_to_responce(Node *nd, Relationship *rel) {
+RelationshipNodeResponce *convert_relationship_to_responce(Node *nd, Relationship *rel, Property *pr) {
     RelationshipNodeResponce *resp = malloc(sizeof(RelationshipNodeResponce));
     relationship_node_responce__init(resp);
 
     SimpleNodeMessage *simple_node_rel = malloc(sizeof(SimpleNodeMessage));
     simple_node_message__init(simple_node_rel);
 
+    PropertyResponce *prop_n = malloc(sizeof(PropertyResponce));
+    property_responce__init(prop_n);
+
     if (nd != NULL) {
         simple_node_rel->id = nd->id;
         simple_node_rel->name = string_copy(nd->name);
         simple_node_rel->type = string_copy(nd->type);
         resp->node = simple_node_rel;
+    }
+    if (pr != NULL) {
+        prop_n->value_type = convert_value_type_proto(pr->value_type);
+        prop_n->type = string_copy(pr->type);
+        prop_n->value = string_copy(pr->value);
+        resp->property = prop_n;
     }
     resp->relation_type = string_copy(rel->type);
     return resp;

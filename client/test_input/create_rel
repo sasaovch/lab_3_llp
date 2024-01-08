@@ -631,7 +631,149 @@ mutation CreateNode(i: $i) {
     }
 }
 ;
-
+{
+    value_type:string,
+    subject_id:6,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:7,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:8,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:9,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:10,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:11,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:12,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:13,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:14,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:15,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
+{
+    value_type:string,
+    subject_id:16,
+    type:text,
+    subject_type:tweet,
+    value:"@anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !"
+}
+mutation CreateNode(i: $i) {
+    createProperty(i: $i) {
+        id
+    }
+}
+;
 {
     value_type:string,
     subject_id:0,

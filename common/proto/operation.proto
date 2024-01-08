@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-enum Operation {
+enum OperationProto {
     CREATE_NODE = 0;
     INSERT_NODE = 1;
     UPDATE_NODE = 2;

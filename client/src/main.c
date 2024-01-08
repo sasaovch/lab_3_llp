@@ -14,24 +14,24 @@ int main(int argc, char **argv) {
     --argc;
     ++argv;
 
-    // if (argc < 3) {
-    //     printf("Usage: ./client <server address> <port> <type [0|1]> [filename]\n");
-    //     return 1;
-    // }
-    // char *server_address = argv[0];
-    // int port = atoi(argv[1]);
-    // int type = atoi(argv[2]);
-    // char *file_path;
-    // if (argc != 4) {
-    //     file_path = "";
-    // } else {
-    //     file_path = argv[3];
-    // }
+    if (argc < 3) {
+        printf("Usage: ./client <server address> <port> <type [0|1]> [filename]\n");
+        return 1;
+    }
+    char *server_address = argv[0];
+    int port = atoi(argv[1]);
+    int type = atoi(argv[2]);
+    char *file_path;
+    if (argc != 4) {
+        file_path = "";
+    } else {
+        file_path = argv[3];
+    }
 
-    char *server_address = "127.0.0.1";
-    int port = 8080;
-    int type = 0;
-    char *file_path = "../test_input/select";
+    // char *server_address = "127.0.0.1";
+    // int port = 8080;
+    // int type = 0;
+    // char *file_path = "../test_input/select";
     // char *file_path = "../test_input/create_rel";
     // char *file_path = "../test_input/create_nodes";
     // char *file_path = "../test_input/create_entity";

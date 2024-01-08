@@ -15,6 +15,7 @@ PROTOBUF_C__BEGIN_DECLS
 #endif
 
 #include "simplenode.pb-c.h"
+#include "propertyresponce.pb-c.h"
 
 typedef struct RelationshipNodeResponce RelationshipNodeResponce;
 
@@ -29,10 +30,11 @@ struct  RelationshipNodeResponce
   ProtobufCMessage base;
   char *relation_type;
   SimpleNodeMessage *node;
+  PropertyResponce *property;
 };
 #define RELATIONSHIP_NODE_RESPONCE__INIT \
  { PROTOBUF_C_MESSAGE_INIT (&relationship_node_responce__descriptor) \
-    , NULL, NULL }
+    , NULL, NULL, NULL }
 
 
 /* RelationshipNodeResponce methods */

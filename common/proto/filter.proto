@@ -1,12 +1,13 @@
 syntax = "proto2";
 
-enum Field {
+enum FieldProto {
     ID = 0;
     NAME = 1;
     VALUE = 2;
+    TYPE = 3;
 }
 
-enum CompareType {
+enum CompareTypeProto {
     GREATER = 0;
     LOWER = 1;
     EQUAL = 2;
@@ -14,8 +15,9 @@ enum CompareType {
     ALL = 4;
 }
 
-message Filter {
-    required Field field = 1;
+message FilterMessage {
+    required FieldProto field = 1;
     optional string value = 2;
-    required CompareType type = 3;
+    required CompareTypeProto type = 3;
+    optional string type_element = 4;
 }

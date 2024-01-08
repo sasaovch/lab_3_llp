@@ -1,21 +1,10 @@
 syntax = "proto2";
 
-enum TypeOfElement {
-    NODE = 0;
-    RELATIONSHIP = 1;
-    PROPERTY = 2;
-}
+import "typeelement.proto";
+import "valuetype.proto";
 
-enum ValueType {
-    INT = 0;
-    FLOAT = 1;
-    STRING = 2;
-    BOOL = 3;
-    VOID = 4;
-}
-
-message Entity {
-    required TypeOfElement typeOfElement = 1;
-    required ValueType valueType = 2;
+message EntityMessage {
+    required TypeOfElementProto type_of_element = 1;
+    required ValueTypeProto value_type = 2;
     required string name = 3;
 }

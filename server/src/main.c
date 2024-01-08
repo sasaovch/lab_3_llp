@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     (void) argc;
     (void) argv;
     int port = 8080;
-    char *filename = "../test_neo4j";
+    char *filename = "../neo4j_try";
     
     Cursor *cursor = db_open(filename);
     int server_fd = start_server(port);

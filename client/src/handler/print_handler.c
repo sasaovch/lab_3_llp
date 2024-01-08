@@ -19,16 +19,6 @@ void print_simple_node_message(SimpleNodeMessage *snm, int depth) {
     printf("name: %s\n", snm->name);
 }
 
-void print_relationship_node_responce(RelationshipNodeResponce *rnr, int depth) {
-    print_white_space(depth);
-    printf("{\n");
-    print_white_space(depth + 1);
-    printf("relation_type: %s,\n", rnr->relation_type);
-    print_simple_node_message(rnr->node, depth + 1);
-    print_white_space(depth);
-    printf("}\n");
-}
-
 void print_property_responce(PropertyResponce *pr, int depth) {
     print_white_space(depth);
     printf("{\n");
@@ -38,6 +28,17 @@ void print_property_responce(PropertyResponce *pr, int depth) {
     printf("type: %s,\n", pr->type);
     print_white_space(depth + 1);
     printf("value: %s\n", pr->value);
+    print_white_space(depth);
+    printf("}\n");
+}
+
+void print_relationship_node_responce(RelationshipNodeResponce *rnr, int depth) {
+    print_white_space(depth);
+    printf("{\n");
+    print_white_space(depth + 1);
+    printf("relation_type: %s,\n", rnr->relation_type);
+    print_simple_node_message(rnr->node, depth + 1);
+    if (rnr->property != NULL) print_property_responce(rnr->property, depth + 1);
     print_white_space(depth);
     printf("}\n");
 }
@@ -72,6 +73,8 @@ void print_node_responce(NodeResponce *nr, int depth) {
     }
     print_white_space(depth + 1);
     printf("]\n");
+    print_white_space(depth);
+    printf("}\n");
 }
 
 void print_simple_responce_message(ResponceMessage *rm) {

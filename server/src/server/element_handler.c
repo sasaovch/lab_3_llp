@@ -2,6 +2,7 @@
 #include "../include/server/find_element_handler.h"
 #include "../include/operations/crud_methods.h"
 #include "data/enums.h"
+#include "data/property.h"
 #include <string.h>
 
 bool handle_create_element(Cursor *cursor, Element *element) {
@@ -78,6 +79,9 @@ ResponceMessage *handle_select_element(Cursor *cursor, RequestMessage *request) 
     Node **nodes_rel = (Node **) malloc(relationships_count * sizeof(Node*));
     find_nodes_by_relationships(cursor, relationships_count, relationships, &nodes_rel);
 
+    Property **properties_n = (Property **) malloc(relationships_count * sizeof(Property*));
+    find_properties_for_nodes(cursor, relationships_count, nodes_rel, &properties_n);
+
     Property **properties = NULL;
     int properties_count = 0;
     find_properties_for_request(cursor, nd, &properties_count, &properties, request);
@@ -89,7 +93,7 @@ ResponceMessage *handle_select_element(Cursor *cursor, RequestMessage *request) 
 
     RelationshipNodeResponce **relationships_responce = malloc(relationships_count * sizeof(RelationshipNodeResponce*));
     for (int i = 0; i < relationships_count; i++) {
-        relationships_responce[i] = convert_relationship_to_responce(nodes_rel[i], relationships[i]);
+        relationships_responce[i] = convert_relationship_to_responce(nodes_rel[i], relationships[i], properties_n[i]);
     }
 
     PropertyResponce **properties_responce = malloc(relationships_count * sizeof(PropertyResponce*));

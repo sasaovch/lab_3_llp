@@ -1,0 +1,932 @@
+Server address: 127.0.0.1
+Port: 8080
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: tweet,
+      id: 0,
+      name: 395
+      relationships: [
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 12,
+            name: 342
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 13,
+            name: 341
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 14,
+            name: 0
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 1,
+            name: 397
+            {
+               value_type: 2,
+               type: text,
+               value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 15,
+            name: 339
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 12,
+            name: 342
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 13,
+            name: 341
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 14,
+            name: 0
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 1,
+            name: 397
+            {
+               value_type: 2,
+               type: text,
+               value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 15,
+            name: 339
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 2,
+            type: text,
+            value: @asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ...
+         }
+         ,
+         {
+            value_type: 2,
+            type: text,
+            value: @asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ...
+         }
+         ,
+         {
+            value_type: 2,
+            type: created_at,
+            value: 2021-03-13T17:23:42Z
+         }
+         ,
+         {
+            value_type: 2,
+            type: created_at,
+            value: 2021-03-13T17:23:42Z
+         }
+      ]
+   }
+}
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: tweet,
+      id: 1,
+      name: 397
+      relationships: [
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 2,
+            name: 402
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 16,
+            name: 340
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 14,
+            name: 0
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 12,
+            name: 342
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 15,
+            name: 339
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 2,
+            name: 402
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 16,
+            name: 340
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 14,
+            name: 0
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 12,
+            name: 342
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 15,
+            name: 339
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 2,
+            type: text,
+            value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+         }
+         ,
+         {
+            value_type: 2,
+            type: text,
+            value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+         }
+         ,
+         {
+            value_type: 2,
+            type: created_at,
+            value: 2021-03-13T17:23:04Z
+         }
+         ,
+         {
+            value_type: 2,
+            type: created_at,
+            value: 2021-03-13T17:23:04Z
+         }
+      ]
+   }
+}
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: tweet,
+      id: 2,
+      name: 402
+      relationships: [
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 15,
+            name: 339
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 12,
+            name: 342
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 14,
+            name: 0
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 13,
+            name: 341
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 3,
+            name: 381
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 15,
+            name: 339
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 12,
+            name: 342
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 14,
+            name: 0
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 13,
+            name: 341
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 3,
+            name: 381
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 2,
+            type: text,
+            value: @asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important
+         }
+         ,
+         {
+            value_type: 2,
+            type: text,
+            value: @asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important
+         }
+         ,
+         {
+            value_type: 2,
+            type: created_at,
+            value: 2021-03-13T17:21:29Z
+         }
+         ,
+         {
+            value_type: 2,
+            type: created_at,
+            value: 2021-03-13T17:21:29Z
+         }
+      ]
+   }
+}
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: user,
+      id: 0,
+      name: marti_casado
+      relationships: [
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 0,
+            name: 395
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ...
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 2,
+            name: 402
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 0,
+            name: 395
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ...
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 2,
+            name: 402
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 0,
+            type: following,
+            value: 968
+         }
+         ,
+         {
+            value_type: 0,
+            type: following,
+            value: 968
+         }
+      ]
+   }
+}
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: user,
+      id: 1,
+      name: jj
+      relationships: [
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 1,
+            name: 397
+            {
+               value_type: 2,
+               type: text,
+               value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 3,
+            name: 381
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 5,
+            name: 372
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 7,
+            name: 362
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 1,
+            name: 397
+            {
+               value_type: 2,
+               type: text,
+               value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 3,
+            name: 381
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 5,
+            name: 372
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 7,
+            name: 362
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 0,
+            type: following,
+            value: 7261
+         }
+         ,
+         {
+            value_type: 0,
+            type: following,
+            value: 7261
+         }
+      ]
+   }
+}
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: user,
+      id: 2,
+      name: Anshu Sharma 🌶
+      relationships: [
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 6,
+            name: 365
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 6,
+            name: 365
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 0,
+            type: following,
+            value: 8962
+         }
+         ,
+         {
+            value_type: 0,
+            type: following,
+            value: 8962
+         }
+      ]
+   }
+}
+Server address: 127.0.0.1
+Port: 8080
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: tweet,
+      id: 0,
+      name: 395
+      relationships: [
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 12,
+            name: 342
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 13,
+            name: 341
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 14,
+            name: 0
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 1,
+            name: 397
+            {
+               value_type: 2,
+               type: text,
+               value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 15,
+            name: 339
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 12,
+            name: 342
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 13,
+            name: 341
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 14,
+            name: 0
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 1,
+            name: 397
+            {
+               value_type: 2,
+               type: text,
+               value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+            }
+         }
+         ,
+         {
+            relation_type: reply_to,
+            type: tweet,
+            id: 15,
+            name: 339
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 2,
+            type: text,
+            value: @asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ...
+         }
+         ,
+         {
+            value_type: 2,
+            type: text,
+            value: @asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ...
+         }
+         ,
+         {
+            value_type: 2,
+            type: created_at,
+            value: 2021-03-13T17:23:42Z
+         }
+         ,
+         {
+            value_type: 2,
+            type: created_at,
+            value: 2021-03-13T17:23:42Z
+         }
+      ]
+   }
+}
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: user,
+      id: 0,
+      name: marti_casado
+      relationships: [
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 0,
+            name: 395
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ...
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 2,
+            name: 402
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 0,
+            name: 395
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Yup. I have my own list. Just curious what others think ...
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 2,
+            name: 402
+            {
+               value_type: 2,
+               type: text,
+               value: @asynchio @anshublog @neo4j @emileifrem Not exactly new :) but agree it’s important
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 0,
+            type: following,
+            value: 968
+         }
+         ,
+         {
+            value_type: 0,
+            type: following,
+            value: 968
+         }
+      ]
+   }
+}

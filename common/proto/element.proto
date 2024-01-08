@@ -1,7 +1,17 @@
 syntax = "proto2";
 
-message Element {
-    required string type = 1;
+import "typeelement.proto";
+
+message ElementMessage {
+    required TypeOfElementProto element_type = 1;
+
+    optional string node_type = 2;
+    optional string node_name = 3;
+
+    optional int32 rel_parent_id = 4;
+    optional int32 rel_child_id = 5;
+    optional int32 
+
     optional int32 subject_id = 2;
     optional string subject_type = 3;
     

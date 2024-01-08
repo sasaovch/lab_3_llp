@@ -52,7 +52,7 @@ void   relationship_node_responce__free_unpacked
   assert(message->base.descriptor == &relationship_node_responce__descriptor);
   protobuf_c_message_free_unpacked ((ProtobufCMessage*)message, allocator);
 }
-static const ProtobufCFieldDescriptor relationship_node_responce__field_descriptors[2] =
+static const ProtobufCFieldDescriptor relationship_node_responce__field_descriptors[3] =
 {
   {
     "relation_type",
@@ -78,15 +78,28 @@ static const ProtobufCFieldDescriptor relationship_node_responce__field_descript
     0,             /* flags */
     0,NULL,NULL    /* reserved1,reserved2, etc */
   },
+  {
+    "property",
+    3,
+    PROTOBUF_C_LABEL_OPTIONAL,
+    PROTOBUF_C_TYPE_MESSAGE,
+    0,   /* quantifier_offset */
+    offsetof(RelationshipNodeResponce, property),
+    &property_responce__descriptor,
+    NULL,
+    0,             /* flags */
+    0,NULL,NULL    /* reserved1,reserved2, etc */
+  },
 };
 static const unsigned relationship_node_responce__field_indices_by_name[] = {
   1,   /* field[1] = node */
+  2,   /* field[2] = property */
   0,   /* field[0] = relation_type */
 };
 static const ProtobufCIntRange relationship_node_responce__number_ranges[1 + 1] =
 {
   { 1, 0 },
-  { 0, 2 }
+  { 0, 3 }
 };
 const ProtobufCMessageDescriptor relationship_node_responce__descriptor =
 {
@@ -96,7 +109,7 @@ const ProtobufCMessageDescriptor relationship_node_responce__descriptor =
   "RelationshipNodeResponce",
   "",
   sizeof(RelationshipNodeResponce),
-  2,
+  3,
   relationship_node_responce__field_descriptors,
   relationship_node_responce__field_indices_by_name,
   1,  relationship_node_responce__number_ranges,

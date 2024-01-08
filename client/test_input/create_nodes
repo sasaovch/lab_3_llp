@@ -216,16 +216,16 @@ mutation CreateNode(i: $i) {
     }
 }
 ;
-{
-    type:user,
-    name: "openCypher Project"
-}
-mutation CreateNode(i: $i) {
-    createNode(i: $i) {
-        id
+    {
+        type:user,
+        name: "openCypher Project"
     }
-}
-;
+    mutation CreateNode(i: $i) {
+        createNode(i: $i) {
+            id
+        }
+    }
+    ;
 
 
 {

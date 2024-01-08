@@ -1,0 +1,27 @@
+{}
+query SelectNode(i: $i) {
+    selectNode(i: $i) {
+        type(type: tweet)
+        relationships {
+            reply_to
+        }
+        properties {
+            text
+            created_at
+        }
+    }
+}
+;
+{}
+query SelectNode(i: $i) {
+    selectNode(i: $i) {
+        type(type: user)
+        relationships {
+            posted
+        }
+        properties {
+            following
+        }
+    }
+}
+;

@@ -17,5 +17,5 @@ Entity *convert_request_to_entity(RequestMessage *request);
 Element *convert_request_to_element(RequestMessage *request);
 
 SimpleNodeMessage *convert_node_to_responce(Node *nd);
-RelationshipNodeResponce *convert_relationship_to_responce(Node *nd, Relationship *rel);
+RelationshipNodeResponce *convert_relationship_to_responce(Node *nd, Relationship *rel, Property *pr);
 PropertyResponce *convert_property_to_responce(Property *pr);

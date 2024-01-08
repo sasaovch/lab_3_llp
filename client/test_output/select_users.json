@@ -1,0 +1,166 @@
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: user,
+      id: 1,
+      name: jj
+      relationships: [
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 1,
+            name: 397
+            {
+               value_type: 2,
+               type: text,
+               value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 3,
+            name: 381
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 5,
+            name: 372
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 7,
+            name: 362
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 1,
+            name: 397
+            {
+               value_type: 2,
+               type: text,
+               value: @martin_casado @anshublog @neo4j @emileifrem True, 15~ years ago.. I think you could just focus on the last decade… https://t.co/lkyGb5kzaE
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 3,
+            name: 381
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 5,
+            name: 372
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 7,
+            name: 362
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 0,
+            type: following,
+            value: 7261
+         }
+         ,
+         {
+            value_type: 0,
+            type: following,
+            value: 7261
+         }
+      ]
+    }
+}
+Responce: {
+   status: 201,
+   message: Find element,
+   node: {
+      type: user,
+      id: 2,
+      name: Anshu Sharma 🌶
+      relationships: [
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 6,
+            name: 365
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+         ,
+         {
+            relation_type: posted,
+            type: tweet,
+            id: 6,
+            name: 365
+            {
+               value_type: 2,
+               type: text,
+               value: @anshublog @martin_casado Oooh, another big one: Graph Database, thanks @neo4j &amp; @emileifrem !
+            }
+         }
+      ],
+      properties: [
+         {
+            value_type: 0,
+            type: following,
+            value: 8962
+         }
+         ,
+         {
+            value_type: 0,
+            type: following,
+            value: 8962
+         }
+      ]
+    }
+}
