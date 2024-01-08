@@ -8,17 +8,17 @@ int main(int argc, char *argv[]) {
     --argc;
     ++argv;
 
-    // if (argc != 2) {
-    //     printf("Usage: ./server <port> <file_name>\n");
-    //     return 1;
-    // }
-    // int port = atoi(argv[1]);
-    // char *filename = argv[2];
+    if (argc != 2) {
+        printf("Usage: ./server <port> <file_name>\n");
+        return 1;
+    }
+    int port = atoi(argv[1]);
+    char *filename = argv[2];
     
-    (void) argc;
-    (void) argv;
-    int port = 8080;
-    char *filename = "../neo4j_try";
+    // (void) argc;
+    // (void) argv;
+    // int port = 8080;
+    // char *filename = "../neo4j_try";
     
     Cursor *cursor = db_open(filename);
     int server_fd = start_server(port);
