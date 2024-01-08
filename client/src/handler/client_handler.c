@@ -5,6 +5,7 @@
 #include "socket_handler.h"
 #include "request.pb-c.h"
 #include "responce.pb-c.h"
+#include <stdlib.h>
 
 void handle_client_input(int type, int client_fd, const char *file_path) {
     if (type) {
@@ -61,7 +62,7 @@ static void copy_request(RequestMessage *dest, RequestMessage *source) {
 void handle_responce_with_iterator(RequestMessage *request, ResponceMessage *responce, int client_fd) {
     void *buf;
     unsigned len;
-    RequestMessage *new_request;
+    RequestMessage *new_request = malloc(sizeof(RequestMessage));
     uint8_t *buffer;
     ssize_t length;
 

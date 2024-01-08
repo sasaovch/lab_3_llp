@@ -10,7 +10,7 @@
 #define PORT 8080
 #define MAX_BUFFER_SIZE 4096
 
-int init_socket();
+int init_socket(void);
 
 int connect_socket(int client_fd, const char *server_addr, int port);
 

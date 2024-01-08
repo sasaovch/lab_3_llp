@@ -1,7 +1,7 @@
 #include "socket.h"
 #include <stdlib.h>
 
-int init_socket() {
+int init_socket(void) {
     int client_fd;
     if ((client_fd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
         printf("\n Socket creation error \n");
@@ -50,8 +50,7 @@ void close_socket(int client_fd) {
 }
 
 int bind_socket(int socket_fd) {
-    int server_fd, new_socket;
-    ssize_t valread;
+    int server_fd = 0;
     struct sockaddr_in address;
     int opt = 1;
 

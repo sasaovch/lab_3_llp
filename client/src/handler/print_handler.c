@@ -1,4 +1,5 @@
 #include "print_handler.h"
+#include <stdint.h>
 
 void print_simple_responce(ResponceMessage *res) {
     printf("Responce - Status: %d, Message: %s\n", res->status, res->message);
@@ -50,7 +51,7 @@ void print_node_responce(NodeResponce *nr, int depth) {
     print_white_space(depth + 1);
     printf("relationships: [\n");
     if (nr->n_relationships > 0) {
-        for (int i = 0; i < nr->n_relationships - 1; i++) {
+        for (uint32_t i = 0; i < nr->n_relationships - 1; i++) {
             print_relationship_node_responce(nr->relationships[i], depth + 2);
             print_white_space(depth + 2);
             printf(",\n");
@@ -64,7 +65,7 @@ void print_node_responce(NodeResponce *nr, int depth) {
     print_white_space(depth + 1);
     printf("properties: [\n");
     if (nr->n_properties > 0) {
-        for (int i = 0; i < nr->n_properties - 1; i++) {
+        for (uint32_t i = 0; i < nr->n_properties - 1; i++) {
             print_property_responce(nr->properties[i], depth + 2);
             print_white_space(depth + 2);
             printf(",\n");

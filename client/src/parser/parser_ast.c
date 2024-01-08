@@ -52,6 +52,7 @@ FieldProto convert_to_field(char *field) {
 }
 
 CompareTypeProto convert_to_compare_type(char *type) {
+    (void) type;
     return COMPARE_TYPE_PROTO__ALL;
 }
 

@@ -84,10 +84,10 @@ Node *createNode_D(AstNodeType type, double val, Node *left, Node *right);
 Node *createNode_B(AstNodeType type, bool val, Node *left, Node *right);
 Node *createNode_S(AstNodeType type, char *val, Node *left, Node *right);
 
-void printRoot();
+void printRoot(void);
 void addJsonInput(Node *node);
 void addRequest(Node *node);
 const char *getAstNodeTypeName(AstNodeType type);
 void printTree(Node *node, int depth, int is_left, int *parent_dir);
-
+char* copyStr(const char* src);
 #endif

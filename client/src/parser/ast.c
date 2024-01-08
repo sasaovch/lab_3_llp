@@ -63,7 +63,7 @@ const char *astNodeTypeToString[] = {
 
 Node root = {ROOT, 0, NULL, NULL};
 
-void printRoot() {
+void printRoot(void) {
     int *parent_dir = (int *) malloc(sizeof(int) * 256);
     printTree(&(root), 0, true, parent_dir);
 }

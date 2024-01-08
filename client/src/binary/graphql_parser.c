@@ -1783,5 +1783,6 @@ yyreturnlab:
 
 
 void yyerror(const char *s) {
+  (void) s;
 //    fprintf(stderr, "error: %s\n", s);
 }
